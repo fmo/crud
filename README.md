@@ -1,16 +1,17 @@
 ## 🛠 Simple and Adaptable CRUD Project Structure
 A clean and extensible project layout for building CRUD operations that can be easily integrated into any application.
 
-📁 Structure Overview:
-cmd/ – Entry point for the application (currently set up for web, but easily extendable for CLI or other interfaces).
+### 📁 Structure Overview:
 
-infrastructure/ – Contains PostgreSQL-specific implementations and integrations.
+`cmd/` – Entry point for the application (currently set up for web, but easily extendable for CLI or other interfaces).
 
-migrations/ – Database schema migrations (PostgreSQL); includes Makefile targets for creating and running migrations.
+`infrastructure/` – Contains PostgreSQL-specific implementations and integrations.
 
-model/ – Struct definitions that map directly to database tables.
+`migrations/` – Database schema migrations (PostgreSQL); includes Makefile targets for creating and running migrations.
 
-service/ – Business logic layer; defines interfaces and provides concrete implementations for core services like task management.
+`model/` – Struct definitions that map directly to database tables.
+
+`service/` – Business logic layer; defines interfaces and provides concrete implementations for core services like task management.
 
 ## INSTALL
 
