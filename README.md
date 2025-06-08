@@ -13,10 +13,14 @@ A clean and extensible project layout for building CRUD operations that can be e
 
 `service/` – Business logic layer; defines interfaces and provides concrete implementations for core services like task management.
 
-## INSTALL
+## INSTALL 
 
 `go get github.com/lib/pq`
-`https://github.com/golang-migrate/migrate`
+
+
+## MIGRATION CLI
+
+https://github.com/golang-migrate/migrate
 
 ## Run Docker
 
