@@ -16,6 +16,7 @@ A clean and extensible project layout for building CRUD operations that can be e
 ## INSTALL
 
 `go get github.com/lib/pq`
+`https://github.com/golang-migrate/migrate`
 
 ## Run Docker
 
