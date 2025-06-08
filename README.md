@@ -20,7 +20,7 @@ A clean and extensible project layout for building CRUD operations that can be e
 
 ## MIGRATION CLI
 
-https://github.com/golang-migrate/migrate
+https://github.com/golang-migrate/migrate/tree/master/cmd/migrate
 
 ## Run Docker
 
